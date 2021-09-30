@@ -15,8 +15,7 @@ pool:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.8'
     mavenVersionOption: 'Default'
-    mavenAuthenticateFeed: true
-    effectivePomSkip: true
+    mavenAuthenticateFeed: false
+    effectivePomSkip: false
     sonarQubeRunAnalysis: false
